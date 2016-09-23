@@ -196,5 +196,10 @@ namespace ImageEdgeDetection
         {
             ApplyFilter(true);
         }
+
+        private void btnApplyFilter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

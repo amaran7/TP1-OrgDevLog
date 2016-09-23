@@ -5,3 +5,5 @@ C:\Work\Projects\HowToSamples_Repository\ImageEdgeDetection\ImageEdgeDetection\I
 C:\Work\Projects\HowToSamples_Repository\ImageEdgeDetection\ImageEdgeDetection\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.csproj.GenerateResource.Cache
 C:\Work\Projects\HowToSamples_Repository\ImageEdgeDetection\ImageEdgeDetection\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
 C:\Work\Projects\HowToSamples_Repository\ImageEdgeDetection\ImageEdgeDetection\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
+C:\Users\Michel_Lopez\Documents\GitHub\TP1\TP1-OrgDevLog\Image_Edge_Detection\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+C:\Users\Michel_Lopez\Documents\GitHub\TP1\TP1-OrgDevLog\Image_Edge_Detection\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb

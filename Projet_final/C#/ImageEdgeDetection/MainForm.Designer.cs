@@ -32,6 +32,8 @@
             this.btnOpenOriginal = new System.Windows.Forms.Button();
             this.btnSaveNewImage = new System.Windows.Forms.Button();
             this.cmbEdgeDetection = new System.Windows.Forms.ComboBox();
+            this.cmbFilters = new System.Windows.Forms.ComboBox();
+            this.btnApplyFilter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picPreview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +53,7 @@
             // btnOpenOriginal
             // 
             this.btnOpenOriginal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpenOriginal.Location = new System.Drawing.Point(12, 618);
+            this.btnOpenOriginal.Location = new System.Drawing.Point(239, 618);
             this.btnOpenOriginal.Name = "btnOpenOriginal";
             this.btnOpenOriginal.Size = new System.Drawing.Size(150, 46);
             this.btnOpenOriginal.TabIndex = 15;
@@ -62,7 +64,7 @@
             // btnSaveNewImage
             // 
             this.btnSaveNewImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveNewImage.Location = new System.Drawing.Point(462, 618);
+            this.btnSaveNewImage.Location = new System.Drawing.Point(462, 719);
             this.btnSaveNewImage.Name = "btnSaveNewImage";
             this.btnSaveNewImage.Size = new System.Drawing.Size(150, 46);
             this.btnSaveNewImage.TabIndex = 16;
@@ -94,16 +96,58 @@
             "Prewitt Grayscale",
             "Kirsch",
             "Kirsch Grayscale"});
-            this.cmbEdgeDetection.Location = new System.Drawing.Point(168, 627);
+            this.cmbEdgeDetection.Location = new System.Drawing.Point(12, 727);
             this.cmbEdgeDetection.Name = "cmbEdgeDetection";
-            this.cmbEdgeDetection.Size = new System.Drawing.Size(288, 32);
+            this.cmbEdgeDetection.Size = new System.Drawing.Size(444, 32);
             this.cmbEdgeDetection.TabIndex = 20;
             this.cmbEdgeDetection.SelectedIndexChanged += new System.EventHandler(this.NeighbourCountValueChangedEventHandler);
+            // 
+            // cmbFilters
+            // 
+            this.cmbFilters.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFilters.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbFilters.FormattingEnabled = true;
+            this.cmbFilters.Items.AddRange(new object[] {
+            "None",
+            "Laplacian 3x3",
+            "Laplacian 3x3 Grayscale",
+            "Laplacian 5x5",
+            "Laplacian 5x5 Grayscale",
+            "Laplacian of Gaussian",
+            "Laplacian 3x3 of Gaussian 3x3",
+            "Laplacian 3x3 of Gaussian 5x5 - 1",
+            "Laplacian 3x3 of Gaussian 5x5 - 2",
+            "Laplacian 5x5 of Gaussian 3x3",
+            "Laplacian 5x5 of Gaussian 5x5 - 1",
+            "Laplacian 5x5 of Gaussian 5x5 - 2",
+            "Sobel 3x3",
+            "Sobel 3x3 Grayscale",
+            "Prewitt",
+            "Prewitt Grayscale",
+            "Kirsch",
+            "Kirsch Grayscale"});
+            this.cmbFilters.Location = new System.Drawing.Point(12, 670);
+            this.cmbFilters.Name = "cmbFilters";
+            this.cmbFilters.Size = new System.Drawing.Size(444, 32);
+            this.cmbFilters.TabIndex = 21;
+            // 
+            // btnApplyFilter
+            // 
+            this.btnApplyFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApplyFilter.Location = new System.Drawing.Point(462, 661);
+            this.btnApplyFilter.Name = "btnApplyFilter";
+            this.btnApplyFilter.Size = new System.Drawing.Size(150, 46);
+            this.btnApplyFilter.TabIndex = 22;
+            this.btnApplyFilter.Text = "ApplyFilter";
+            this.btnApplyFilter.UseVisualStyleBackColor = true;
+            this.btnApplyFilter.Click += new System.EventHandler(this.btnApplyFilter_Click);
             // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(624, 675);
+            this.ClientSize = new System.Drawing.Size(624, 766);
+            this.Controls.Add(this.btnApplyFilter);
+            this.Controls.Add(this.cmbFilters);
             this.Controls.Add(this.cmbEdgeDetection);
             this.Controls.Add(this.btnSaveNewImage);
             this.Controls.Add(this.btnOpenOriginal);
@@ -125,6 +169,8 @@
         private System.Windows.Forms.Button btnOpenOriginal;
         private System.Windows.Forms.Button btnSaveNewImage;
         private System.Windows.Forms.ComboBox cmbEdgeDetection;
+        private System.Windows.Forms.ComboBox cmbFilters;
+        private System.Windows.Forms.Button btnApplyFilter;
     }
 }
 

@@ -1,0 +1,2 @@
+C:\Users\Michel_Lopez\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+C:\Users\Michel_Lopez\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
