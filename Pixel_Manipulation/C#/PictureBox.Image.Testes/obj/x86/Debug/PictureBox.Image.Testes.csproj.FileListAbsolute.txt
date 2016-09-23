@@ -86,3 +86,6 @@ C:\Users\Rui Machado\Desktop\C#\PictureBox.Image.Testes\obj\x86\Debug\GenerateRe
 C:\Users\Rui Machado\Desktop\C#\PictureBox.Image.Testes\obj\x86\Debug\ResGen.read.1.tlog
 C:\Users\Rui Machado\Desktop\C#\PictureBox.Image.Testes\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Rui Machado\Desktop\C#\PictureBox.Image.Testes\obj\x86\Debug\ResGen.write.1.tlog
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Projets\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\PictureBox.Image.Testes.exe.config
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Projets\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.exe
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Projets\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.pdb
