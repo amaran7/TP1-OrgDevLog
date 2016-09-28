@@ -89,3 +89,17 @@ C:\Users\Rui Machado\Desktop\C#\PictureBox.Image.Testes\obj\x86\Debug\ResGen.wri
 D:\OneDrive\HES\625-1 Organisation du développement logiciel\Projets\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\PictureBox.Image.Testes.exe.config
 D:\OneDrive\HES\625-1 Organisation du développement logiciel\Projets\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.exe
 D:\OneDrive\HES\625-1 Organisation du développement logiciel\Projets\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\PictureBox.Image.Testes.exe.config
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.exe
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\PictureBox.Image.Testes.exe
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\PictureBox.Image.Testes.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\ZedGraph.dll
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\Emgu.CV.xml
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\bin\Debug\Emgu.Util.xml
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.csprojResolveAssemblyReference.cache
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.Form1.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.FormSize.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.Properties.Resources.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Pixel_Manipulation\C#\PictureBox.Image.Testes\obj\x86\Debug\PictureBox.Image.Testes.csproj.GenerateResource.Cache

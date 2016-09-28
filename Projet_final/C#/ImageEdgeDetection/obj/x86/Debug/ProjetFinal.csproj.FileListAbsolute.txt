@@ -1,0 +1,8 @@
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.exe
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinal.csprojResolveAssemblyReference.cache
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.MainForm.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.Properties.Resources.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinal.csproj.GenerateResource.Cache

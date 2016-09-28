@@ -27,6 +27,8 @@ namespace ImageEdgeDetection
             InitializeComponent();
 
             cmbEdgeDetection.SelectedIndex = 0;
+            cmbFilterList.SelectedIndex = 0;
+            cmbFilterList.Enabled = false;
         }
 
         private void btnOpenOriginal_Click(object sender, EventArgs e)
@@ -46,6 +48,7 @@ namespace ImageEdgeDetection
                 picPreview.Image = previewBitmap;
 
                 ApplyFilter(true);
+                cmbFilterList.Enabled = true;
             }
         }
 
@@ -108,6 +111,7 @@ namespace ImageEdgeDetection
                 if (cmbEdgeDetection.SelectedItem.ToString() == "None")
                 {
                     bitmapResult = selectedSource;
+                    cmbFilterList.Enabled = true;
                 }
                 else if (cmbEdgeDetection.SelectedItem.ToString() == "Laplacian 3x3")
                 {
@@ -194,7 +198,25 @@ namespace ImageEdgeDetection
 
         private void NeighbourCountValueChangedEventHandler(object sender, EventArgs e)
         {
+            cmbFilterList.Enabled = false;
             ApplyFilter(true);
+            
+        }
+
+        private void cmbFilterList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbFilterList.SelectedItem.ToString() == "None")
+            {
+                previewBitmap = originalBitmap;
+                picPreview.Image = originalBitmap;
+            }
+            else
+            {
+                previewBitmap = ImageFilters.ApplyImageFilter(originalBitmap, cmbFilterList.SelectedItem.ToString());
+                picPreview.Image = previewBitmap;
+
+            }
+            
         }
     }
 }
