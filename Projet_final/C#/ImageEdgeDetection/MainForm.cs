@@ -21,6 +21,7 @@ namespace ImageEdgeDetection
         private Bitmap originalBitmap = null;
         private Bitmap previewBitmap = null;
         private Bitmap resultBitmap = null;
+        private Boolean isImageFiltered;
         
         public MainForm()
         {
@@ -29,6 +30,7 @@ namespace ImageEdgeDetection
             cmbEdgeDetection.SelectedIndex = 0;
             cmbFilterList.SelectedIndex = 0;
             cmbFilterList.Enabled = false;
+            isImageFiltered = false;
         }
 
         private void btnOpenOriginal_Click(object sender, EventArgs e)
@@ -103,7 +105,15 @@ namespace ImageEdgeDetection
             }
             else
             {
-                selectedSource = originalBitmap;
+                if (isImageFiltered)
+                {
+                    selectedSource = previewBitmap;
+                }
+                else
+                {
+                    selectedSource = originalBitmap;
+                }
+                
             }
 
             if (selectedSource != null)
@@ -209,11 +219,13 @@ namespace ImageEdgeDetection
             {
                 previewBitmap = originalBitmap;
                 picPreview.Image = originalBitmap;
+                isImageFiltered = false;
             }
             else
             {
                 previewBitmap = ImageFilters.ApplyImageFilter(originalBitmap, cmbFilterList.SelectedItem.ToString());
                 picPreview.Image = previewBitmap;
+                isImageFiltered = true;
 
             }
             
