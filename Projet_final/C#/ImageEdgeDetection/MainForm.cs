@@ -29,6 +29,7 @@ namespace ImageEdgeDetection
 
             cmbEdgeDetection.SelectedIndex = 0;
             cmbFilterList.SelectedIndex = 0;
+            cmbEdgeDetection.Enabled = false;
             cmbFilterList.Enabled = false;
             isImageFiltered = false;
         }
@@ -37,8 +38,8 @@ namespace ImageEdgeDetection
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Title = "Select an image file.";
-            ofd.Filter = "Png Images(*.png)|*.png|Jpeg Images(*.jpg)|*.jpg";
-            ofd.Filter += "|Bitmap Images(*.bmp)|*.bmp";
+            ofd.Filter = "PNG Images (*.png)|*.png|JPEG Images (*.jpg)|*.jpg";
+            ofd.Filter += "|BMP Images (*.bmp)|*.bmp";
 
             if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
@@ -51,6 +52,7 @@ namespace ImageEdgeDetection
 
                 ApplyFilter(true);
                 cmbFilterList.Enabled = true;
+                cmbEdgeDetection.Enabled = true;
             }
         }
 
@@ -62,8 +64,8 @@ namespace ImageEdgeDetection
             {
                 SaveFileDialog sfd = new SaveFileDialog();
                 sfd.Title = "Specify a file name and file path";
-                sfd.Filter = "Png Images(*.png)|*.png|Jpeg Images(*.jpg)|*.jpg";
-                sfd.Filter += "|Bitmap Images(*.bmp)|*.bmp";
+                sfd.Filter = "PNG Images (*.png)|*.png|JPEG Images (*.jpg)|*.jpg";
+                sfd.Filter += "|BMP Images (*.bmp)|*.bmp";
 
                 if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
@@ -230,5 +232,6 @@ namespace ImageEdgeDetection
             }
             
         }
+
     }
 }

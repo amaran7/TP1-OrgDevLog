@@ -33,6 +33,8 @@
             this.btnSaveNewImage = new System.Windows.Forms.Button();
             this.cmbEdgeDetection = new System.Windows.Forms.ComboBox();
             this.cmbFilterList = new System.Windows.Forms.ComboBox();
+            this.P = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picPreview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,10 +53,10 @@
             // 
             // btnOpenOriginal
             // 
-            this.btnOpenOriginal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpenOriginal.Location = new System.Drawing.Point(263, 618);
+            this.btnOpenOriginal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpenOriginal.Location = new System.Drawing.Point(13, 697);
             this.btnOpenOriginal.Name = "btnOpenOriginal";
-            this.btnOpenOriginal.Size = new System.Drawing.Size(150, 46);
+            this.btnOpenOriginal.Size = new System.Drawing.Size(119, 37);
             this.btnOpenOriginal.TabIndex = 15;
             this.btnOpenOriginal.Text = "Load Image";
             this.btnOpenOriginal.UseVisualStyleBackColor = true;
@@ -62,12 +64,12 @@
             // 
             // btnSaveNewImage
             // 
-            this.btnSaveNewImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveNewImage.Location = new System.Drawing.Point(462, 733);
+            this.btnSaveNewImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveNewImage.Location = new System.Drawing.Point(544, 697);
             this.btnSaveNewImage.Name = "btnSaveNewImage";
-            this.btnSaveNewImage.Size = new System.Drawing.Size(184, 46);
+            this.btnSaveNewImage.Size = new System.Drawing.Size(102, 33);
             this.btnSaveNewImage.TabIndex = 16;
-            this.btnSaveNewImage.Text = "Save Image";
+            this.btnSaveNewImage.Text = "Save as...";
             this.btnSaveNewImage.UseVisualStyleBackColor = true;
             this.btnSaveNewImage.Click += new System.EventHandler(this.btnSaveNewImage_Click);
             // 
@@ -95,9 +97,9 @@
             "Prewitt Grayscale",
             "Kirsch",
             "Kirsch Grayscale"});
-            this.cmbEdgeDetection.Location = new System.Drawing.Point(21, 733);
+            this.cmbEdgeDetection.Location = new System.Drawing.Point(334, 650);
             this.cmbEdgeDetection.Name = "cmbEdgeDetection";
-            this.cmbEdgeDetection.Size = new System.Drawing.Size(423, 37);
+            this.cmbEdgeDetection.Size = new System.Drawing.Size(312, 32);
             this.cmbEdgeDetection.TabIndex = 20;
             this.cmbEdgeDetection.SelectedIndexChanged += new System.EventHandler(this.NeighbourCountValueChangedEventHandler);
             // 
@@ -120,16 +122,36 @@
             "Mega Filter Pink",
             "Mega Filter Custom",
             "Rainbow Filter"});
-            this.cmbFilterList.Location = new System.Drawing.Point(135, 690);
+            this.cmbFilterList.Location = new System.Drawing.Point(12, 650);
             this.cmbFilterList.Name = "cmbFilterList";
-            this.cmbFilterList.Size = new System.Drawing.Size(423, 37);
+            this.cmbFilterList.Size = new System.Drawing.Size(304, 32);
             this.cmbFilterList.TabIndex = 21;
             this.cmbFilterList.SelectedIndexChanged += new System.EventHandler(this.cmbFilterList_SelectedIndexChanged);
+            // 
+            // P
+            // 
+            this.P.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P.Location = new System.Drawing.Point(9, 622);
+            this.P.Name = "P";
+            this.P.Size = new System.Drawing.Size(100, 23);
+            this.P.TabIndex = 0;
+            this.P.Text = "Filters";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(330, 620);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(250, 29);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Edge detection";
             // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(658, 782);
+            this.ClientSize = new System.Drawing.Size(658, 742);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.P);
             this.Controls.Add(this.cmbFilterList);
             this.Controls.Add(this.cmbEdgeDetection);
             this.Controls.Add(this.btnSaveNewImage);
@@ -140,7 +162,7 @@
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Image Edge Detection";
+            this.Text = "TP1 Image Changer";
             ((System.ComponentModel.ISupportInitialize)(this.picPreview)).EndInit();
             this.ResumeLayout(false);
 
@@ -153,6 +175,8 @@
         private System.Windows.Forms.Button btnSaveNewImage;
         private System.Windows.Forms.ComboBox cmbEdgeDetection;
         private System.Windows.Forms.ComboBox cmbFilterList;
+        private System.Windows.Forms.Label P;
+        private System.Windows.Forms.Label label1;
     }
 }
 
