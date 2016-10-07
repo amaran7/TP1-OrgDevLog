@@ -1,0 +1,8 @@
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.exe
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.pdb
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinalWithTests.csprojResolveAssemblyReference.cache
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.MainForm.resources
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.Properties.Resources.resources
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinalWithTests.csproj.GenerateResource.Cache

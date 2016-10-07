@@ -1,0 +1,20 @@
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.exe
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.pdb
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinal.csprojResolveAssemblyReference.cache
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.MainForm.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.Properties.Resources.resources
+C:\Users\Michel\Documents\GitHub\TP1\TP1-OrgDevLog\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinal.csproj.GenerateResource.Cache
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.exe
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\bin\Debug\ImageEdgeDetection.pdb
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinal.csprojResolveAssemblyReference.cache
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.MainForm.resources
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.Properties.Resources.resources
+D:\VisualStudioProjects\TP1-OrgDevLog-master\Projet_final_Michel\C#\ImageEdgeDetection\obj\x86\Debug\ProjetFinal.csproj.GenerateResource.Cache
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.exe
+D:\OneDrive\HES\625-1 Organisation du développement logiciel\Test Driven Development - Genoud\Projets\TP1\TP1-OrgDevLog\Projet_final_with_tests\C#\ImageEdgeDetection\obj\x86\Debug\ImageEdgeDetection.pdb
