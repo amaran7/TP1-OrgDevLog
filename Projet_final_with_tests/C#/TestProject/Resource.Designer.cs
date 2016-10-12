@@ -103,6 +103,16 @@ namespace TestProject {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HortonLandscapeLaplacian5x5 {
+            get {
+                object obj = ResourceManager.GetObject("HortonLandscapeLaplacian5x5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap landscapeNature {
             get {
                 object obj = ResourceManager.GetObject("landscapeNature", resourceCulture);
