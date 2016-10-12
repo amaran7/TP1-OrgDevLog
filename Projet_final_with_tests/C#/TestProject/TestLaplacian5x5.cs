@@ -2,6 +2,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Drawing;
 using ImageEdgeDetection;
+using System.IO;
+using System.Drawing.Imaging;
 
 namespace TestProject
 {
@@ -58,6 +60,17 @@ namespace TestProject
 
         }
 
+        // Méthode permettant de tester que le type de fichier de départ est identique à celui d'arrivée
+        [TestMethod]
+        public void extensionTest()
+        {
+            Bitmap imageFiltreeTest = ExtBitmap.Laplacian5x5Filter(imageInitiale, false);
+
+            String extensionImageInitiale = Path.GetExtension(imageInitiale.ToString());
+            String extensionImageFiltree = Path.GetExtension(imageFiltreeTest.ToString());
+
+            Assert.AreEqual(extensionImageInitiale, extensionImageFiltree);
+        }
 
     }
 }

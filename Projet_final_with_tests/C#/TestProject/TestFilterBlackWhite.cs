@@ -59,6 +59,18 @@ namespace TestProject
 
         }
 
+        // Méthode permettant de tester que le type de fichier de départ est identique à celui d'arrivée
+        [TestMethod]
+        public void extensionTest()
+        {
+            Bitmap imageFiltreeTest = ImageFilters.BlackWhite(imageInitiale);
+
+            String extensionImageInitiale = Path.GetExtension(imageInitiale.ToString());
+            String extensionImageFiltree = Path.GetExtension(imageFiltreeTest.ToString());
+
+            Assert.AreEqual(extensionImageInitiale, extensionImageFiltree);
+        }
+
         /*
         // Test vérifiant s'il s'agit bien d'une image
         [TestMethod]
