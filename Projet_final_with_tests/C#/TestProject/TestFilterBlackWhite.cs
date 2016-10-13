@@ -71,47 +71,7 @@ namespace TestProject
             Assert.AreEqual(extensionImageInitiale, extensionImageFiltree);
         }
 
-        /*
-        // Test vérifiant s'il s'agit bien d'une image
-        [TestMethod]
-        public void isImageTest()
-        {
-
-            //Image imageCorrompue = Image.FromFile("C:\\imageCorrompue.jpg");
-            //Bitmap bmpImageCorrompue = new Bitmap(imageCorrompue);
-
-            Bitmap bmpImageCorrompue = ImageFilters.BlackWhite(imageInitiale);
-
-            Assert.IsNull(ImageFilters.BlackWhite(bmpImageCorrompue));
-
-        }
-
-        */
-
-        /*
-        // Test permettant de vérifier que la méthode retourne null si une image null est entrée
-        [TestMethod]
-        public void imageNullTestI()
-        {
-            Bitmap imageNull = null;
-
-            Assert.IsNull(ImageFilters.BlackWhite(imageNull));
-        }
-        */
-
-        /*
-        [TestMethod]
-        public void corruptedImageTest()
-        {
-            Image notImage = Image.FromFile("D:\\OneDrive\\HES\\625-1 Organisation du développement logiciel\\Test Driven Development - Genoud\\Projets\\TP1\\TP1-OrgDevLog\\Projet_final_with_tests\\C#\\ImageEdgeDetection\\Resources\\imageCorrompue.png");
-
-            Bitmap bitmapImage = new Bitmap(notImage);
-
-                Bitmap imageFinale = ImageFilters.BlackWhite(bitmapImage);
-                        
-        }
-
-       */
+        
     }
 
 }
